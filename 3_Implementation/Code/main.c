@@ -7,6 +7,7 @@ int main()
     int tem_var;
     int select;
     char s_element[10];
+    printf("Enter the number of details to be added\n");
     scanf("%d",&no);
     struct emp_details emp[10];
     read(emp,no);
@@ -31,8 +32,10 @@ int main()
     scanf("%d",&select);
     switch(select)
     {
-    case 1: scanf("%s",&s_element);
+    case 1: printf("\nEnter the name to be searched\n");
+            scanf("%s",&s_element);
             search_name(emp,s_element,no);
+            exit(1);
     case 2: exit(1);
     default:exit(1);
     }
@@ -41,20 +44,20 @@ int main()
 void read(struct emp_details emp[], int a)
 {
     int i;
+    printf("\nEnter the name and the 4 digit employee id\n");
     for(i=0;i<a;i++)
     {
         scanf("%s %d",&emp[i].name,&emp[i].emp_no);
-        printf("%s, %d",emp[i].name,emp[i].emp_no);
-
     }
 }
 
 void display(struct emp_details emp[], int b)
 {
     int i;
+    printf("\n The details organised are\n");
     for(i=0;i<b;i++)
     {
-        printf("\n %s  %d",emp[i].name,emp[i].emp_no);
+        printf("\n %s \t%d",emp[i].name,emp[i].emp_no);
     }
 }
 
@@ -69,6 +72,9 @@ void search_name(struct emp_details emp[],char s_element,int a)
        {
            printf("\n Element found: \n %s",s_element);
        }
+       else
+       {
+           printf("\nThe element was not found");
+       }
     }
-
 }
