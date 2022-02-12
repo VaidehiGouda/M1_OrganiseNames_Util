@@ -6,5 +6,7 @@ Some of the requirements identified are:
 - Sort it alphabetwise.
 
 Some tools that helped build this project are:
-- draw.io https://app.diagrams.net/
+- [draw.io](https://app.diagrams.net/)
 - Microsoft Word
+
+The code quality was checked in the [codacy](https://www.codacy.com/) platform and the badge obtained from there was c.
