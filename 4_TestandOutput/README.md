@@ -1,1 +1,1 @@
-Some test cases which is checked are mentioned here.
+Some test cases checked are mentioned here.
