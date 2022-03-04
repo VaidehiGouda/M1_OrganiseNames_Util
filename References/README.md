@@ -1,2 +1,0 @@
-- [Geeksforgeeks](https://www.geeksforgeeks.org/string-find-in-cpp/)
-- [Knowprogram](https://www.knowprogram.com/c-programming/c-program-to-search-a-string-in-the-list-of-strings/)
