@@ -30,7 +30,7 @@ void organise()
     {
     case 1: printf("\nEnter the name to be searched\n");
             scanf("%s",&s_element);
-            demo(s_element,no);
+            search_name(s_element,no);
             exit(1);
     case 2: exit(1);
     default:exit(1);
@@ -78,7 +78,7 @@ void display(struct emp_details emp[], int b)
     }
 }
 
-void demo(char s_element[LEN],int a)
+void search_name(char s_element[LEN],int a)
 {
     short i=0,j=0,k=0;
     int in;
@@ -94,17 +94,21 @@ void demo(char s_element[LEN],int a)
         strcpy(text, employees[in].name);
         textlen = strlen(text);
         if(textlen == keylen) {
-            for(i=0;i < textlen;i++){
+            for(i=0;i < textlen;i++)
+			{
                 j=0;
-                while(j < keylen){
+                while(j < keylen)
+				{
 
-                    if(text[j] == s_element[j]){
+                    if(text[j] == s_element[j])
+					{
                         j++;
                     }
                     else
                         break;
                 }
-                if(j == keylen){
+                if(j == keylen)
+				{
                     flag++;
                 }
             }

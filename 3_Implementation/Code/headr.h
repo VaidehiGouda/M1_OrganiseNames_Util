@@ -14,7 +14,7 @@ struct emp_details employees[NUM];
 
 void read(struct emp_details emp[], int a);
 void display(struct emp_details emp[], int b);
-void demo(char s_element[LEN], int a);
+void search_name(char s_element[LEN], int a);
 void populateEmpStruct();
 void arrangeNames();
 void organise();

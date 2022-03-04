@@ -5,6 +5,17 @@ Some of the requirements identified are:
 - Display the details properly.
 - Sort it alphabetwise.
 
+4W 1H 
+Who- Anyone who has a requirement to arrange the objects alphabetically.
+
+What- It has features like display, rearrange and search.
+
+When- Can be used when there is little to more data to arrange.
+
+Where- It can be used in any sector where the database is to be kept and arranged orderly.
+
+How- It is developed using C language. Each functionality is added for convenience.
+
 Some tools that helped build this project are:
 - [draw.io](https://app.diagrams.net/)
 - Microsoft Word
